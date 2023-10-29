@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Mi primera pagina web</title>
+    <style>
+        table, th, td{
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Ps4</td>
+                <td>12,34$</td>
+            </tr>
+            <tr>
+                <td>chanchito</td>
+                <td>59,90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 100,09$</td>
+        </tfoot>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--ol es lista ordenada-->
+    <ol>
+        <li value="10">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 4</li>
+            </ol>
+        </li>
+        
+    </ol>
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre</label> 
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label> 
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario--" name="comentario"> </textarea>
+        <br>
+        <input type="submit"/>
+        <button type="button"> Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>mi tercer heading</h3>
+    <h4>mi cuartto heading</h4>
+    <h5>mi quinto heading</h5>
+    <h6>mi sexto heading</h6>
+    <p>Chnchito feliz</p>
+    <hr>
+    <h2>Chancho filip</h2>
+    <p>
+        el chancho<span style="color: red;"> es rojo </span> chanchi <br>
+        etiqueta
+    </p>
+    <a target = "_blank" href="https:www.facebook.com">Ir a facebook</a>
+    <!-- seste texto es un comentario-->
+    <br>
+    <img src = "img/cofee.png" width="400" height="400"/>
+    
+</body>
+</html>
